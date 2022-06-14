@@ -23,3 +23,20 @@ int main()
 //controle dos pinos GPIO da Raspberry Pi. É uma biblioteca feita para uso em programas de linguagem C ou C++. Assim
 //como a IDE Geany, a biblioteca WiringPi já vem instalada no sistema bastando apenas incluir a biblioteca em 
 //seu programa com a linha “#include <wiringPi.h>“.
+
+APÊNDICE A - MÁQUINA VIRTUAL COM RASPBERRY PI
+(by Vítor Araújo Lengovski)
+Além do sistema de visualização de imagens, foram realizadas outras
+atividades no estágio como bolsista. Os Raspberry Pi controlam as câmeras e
+disponibilizam as imagens por endereço HTTP, usando o programa Motion. Sendo
+assim, fez-se necessária a criação de uma máquina virtual, usando a versão do
+sistema Raspbian para computadores (Raspberry Pi Desktop). Abaixo, serão
+descritas as etapas para a criação de uma máquina virtual usando VirtualBox.
+Primeiramente, o usuário deve baixar o arquivo ISO, usado para gravação de
+softwares e sistemas operacionais. O arquivo desse exemplo está disponível no site
+do Raspberry Pi(https://www.raspberrypi.org/downloads/raspberry-pi-desktop/). Ao
+entrar nessa página, clique em “Download ISO” para baixar o arquivo.
+Figura 17: Baixando arquivo ISO.
+Fonte: Elaborado pelo autor.
+Tendo baixado o arquivo ISO do sistema, deve-se abrir o programa VirtualBox
+e clicar no botão “Novo”. Após isso, nomeie a máquina virtual, selecione o tipo
